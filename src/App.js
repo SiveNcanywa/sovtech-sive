@@ -1,7 +1,8 @@
 import myself from './myself.png';
 import './App.css';
 import Typical from 'react-typical';
-import react from 'react'
+import React from 'react';
+
 
 
 
