@@ -3,10 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 header {
-  min-height: 100vh;
+  height: 100vh;
   background:black;
   display: flex;
   align-items: center;
@@ -14,7 +15,8 @@ header {
   gap: 30px;
 }
 h1{
-  margin: 5%;
+  margin: 0;
+  margin-bottom: 5%;
   color:#ffffff;
 }
 h1 span{
@@ -24,14 +26,15 @@ h1 span{
 .landing-right {
   width: 50%;
   color: #ffffff;
+  
 }
 
 .landing-right {
   background: #F9082A;
-  border-radius: 70%;
+  border-radius: 100%;
   width: fit-content;
-  padding: 20px;
-  aspect-ratio: 1;
+  /* padding: 20px; */
+  aspect-ratio: 1/1;
   display: grid;
   place-content: center;
 }
