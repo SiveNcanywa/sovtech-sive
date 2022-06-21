@@ -2,6 +2,7 @@ import myself from './myself.png';
 import './App.css';
 import Typical from 'react-typical';
 import React from 'react';
+import Typewriter from "typewriter-effect"
 
 
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <header>
        <div className="landing-left">
-      <h1>Hello, I am{''} <span className="typed-text"> <Typical
+      <h1>Hello, I am{''} <span className="typed-text"> <Typewriter
      loop={Infinity}
      wrapper='b'
      steps={[
